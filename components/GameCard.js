@@ -58,9 +58,7 @@ const GameCard = ({
 						{set1},{set2},{set3}
 					</Text>
 					<Image
-						source={{
-							uri: logo,
-						}}
+						source={require(logo)}
 						className="h-14 w-14 mx-auto"
 					/>
 				</View>

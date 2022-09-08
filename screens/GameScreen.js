@@ -73,7 +73,7 @@ const GameScreen = () => {
 					className="w-full h-full"
 				/>
 			</View>
-			<View className="relative bg-white w-full h-10 p-4 mx-auto flex-row items-center justify-center">
+			<View className="relative bg-white w-11/12 h-10 p-4 mx-auto flex-row items-center justify-center rounded-md">
 				<TouchableOpacity
 					onPress={() => backward()}
 					className="absolute left-10"
